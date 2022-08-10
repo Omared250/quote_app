@@ -26,7 +26,6 @@ body {
 	padding: 20px;
 	display: inline-block;
 	border-radius: 10px;
-	margin: 100px 30%;
 	color: var(--active-color);
 	font-family: 'Manrope', sans-serif;
 }
