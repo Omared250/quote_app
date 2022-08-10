@@ -17,16 +17,39 @@
 }
 
 body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: var(--Dark-Blue);
 }
 
 .container{
+    width: 35rem;
+    padding: 1rem 1rem 0 1rem;
+    display: inline-block;
 	text-align: center;
-	background-color: var(--Dark-Grayish-Blue);
-	display: inline-block;
-	border-radius: 10px;
+    font-family: 'Manrope', 'sans-serif';
 	color: var(--active-color);
-	font-family: 'Manrope', sans-serif;
+
+	background-color: var(--Dark-Grayish-Blue);
+	border-radius: 10px;
+}
+
+.container h3 {
+    color: var(--normal-color);
+    font-size: 12px;
+    margin-bottom: 1rem;
+}
+
+.container p {
+    width: 80%;
+    margin: 1rem auto;
+    font-size: 28px;
+}
+
+.divider {
+    margin: 1rem auto;
 }
 
 .dice {
@@ -36,6 +59,11 @@ body {
 
     background-color: var(--normal-color);
     border-radius: 50%;
+    cursor: pointer;
+}
+
+.dice:hover {
+    background-color: hsl(150, 92%, 69%);
 }
 
 .dice img {

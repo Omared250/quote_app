@@ -18,9 +18,9 @@ class QuoteView {
 
     _generateQuoteMarkup() {
         return `
-        <h3>Advice #${this._data.id}</h3>
-        <h2>"${this._data.advice}"</h2>
-        <img src="./src/images/pattern-divider-desktop.svg" alt="divider"><br>
+        <h3>ADVICE #${this._data.id}</h3>
+        <p>"${this._data.advice}"</p>
+        <img src="./src/images/pattern-divider-desktop.svg" alt="divider" class="divider"><br>
         <div class="dice"><img src="./src/images/icon-dice.svg" alt="dice">
         </div>`
     }
