@@ -22,7 +22,7 @@ body {
 
 .container{
 	text-align: center;
-	background-color: var(--Grayish-Blue);
+	background-color: var(--Dark-Grayish-Blue);
 	padding: 20px;
 	display: inline-block;
 	border-radius: 10px;
