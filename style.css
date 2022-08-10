@@ -55,6 +55,10 @@ body {
     .container {
         width: 90%;
     }
+
+    .container p {
+        font-size: 20px;
+    }
 }
 
 /*----------------- Divider ------------------*/
@@ -72,8 +76,8 @@ body {
 /*----------------- Dice ------------------*/
 
 .dice {
-    width: 3rem;
-    height: 3rem;
+    width: 4rem;
+    height: 4rem;
     margin: 1rem auto -1.5rem auto;
 
     background-color: var(--normal-color);
@@ -86,6 +90,5 @@ body {
 }
 
 .dice img {
-    margin: 0.7rem auto;
+    margin: 1.2rem auto;
 }
-
