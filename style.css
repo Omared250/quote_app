@@ -4,7 +4,7 @@
 :root {
     --active-color: hsl(193, 38%, 86%);
     --normal-color: hsl(150, 100%, 66%);
-    
+
     --Grayish-Blue: hsl(217, 19%, 38%);
     --Dark-Grayish-Blue: hsl(217, 19%, 24%);
     --Dark-Blue: hsl(218, 23%, 16%);
@@ -14,4 +14,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    background-color: var(--Dark-Blue);
+}
+
+.container{
+	text-align: center;
+	background-color: var(--Grayish-Blue);
+	padding: 20px;
+	display: inline-block;
+	border-radius: 10px;
+	margin: 100px 30%;
+	color: var(--active-color);
+	font-family: 'Manrope', sans-serif;
 }
