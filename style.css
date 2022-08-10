@@ -23,9 +23,22 @@ body {
 .container{
 	text-align: center;
 	background-color: var(--Dark-Grayish-Blue);
-	padding: 20px;
 	display: inline-block;
 	border-radius: 10px;
 	color: var(--active-color);
 	font-family: 'Manrope', sans-serif;
 }
+
+.dice {
+    width: 3rem;
+    height: 3rem;
+    margin: 1rem auto -1.5rem auto;
+
+    background-color: var(--normal-color);
+    border-radius: 50%;
+}
+
+.dice img {
+    margin: 0.7rem auto;
+}
+
