@@ -1,6 +1,7 @@
 class QuoteView {
     _parentEl = document.querySelector('.container');
     _data;
+    _errorMessage = 'Uuups. We have a problem'
 
     addHandlerHome(handler) {
         ['load'].forEach(ev => window.addEventListener(ev, handler()));
@@ -14,6 +15,16 @@ class QuoteView {
 
     clearContainer() {
         this._parentEl.innerHTML = '';
+    }
+
+    renderError(message = this._errorMessage) {
+        const markup = `
+        <div class="error">
+        <img src="/src/images/errorimage.png" alt="error image"></img>
+        <p>${message}!</p>
+        </div>`
+        this.clearContainer();
+        this._parentEl.insertAdjacentHTML('beforeend', markup);
     }
 
     _generateQuoteMarkup() {

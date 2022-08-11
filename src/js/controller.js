@@ -7,7 +7,7 @@ const loadAdvice = async function() {
         quoteView.render(model.quote);
         getQuoteByClickDIce();
     } catch (err) {
-        throw err;
+        quoteView.renderError();
     }
 }
 
@@ -20,7 +20,7 @@ const getQuoteByClickDIce = async function() {
             await loadAdvice();
         })
     } catch (err) {
-        console.error(err);
+        quoteView.renderError();
     }
 }
 

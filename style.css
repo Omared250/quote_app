@@ -92,3 +92,9 @@ body {
 .dice img {
     margin: 1.2rem auto;
 }
+
+/*---------------- Error ----------------------*/
+
+.error img {
+    width: 15rem;
+}
