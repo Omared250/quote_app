@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/Omared250/quote_app]
-- Live Site URL: [no yet]
+- Live Site URL: [https://omared250.github.io/quote_app/]
 
 ## My process
 
