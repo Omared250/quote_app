@@ -5,13 +5,13 @@ const loadAdvice = async function() {
     try {
         await model.loadQuote();
         quoteView.render(model.quote);
-        getQuote();
+        getQuoteByClickDIce();
     } catch (err) {
-        console.error(err);
+        throw err;
     }
 }
 
-const getQuote = async function() {
+const getQuoteByClickDIce = async function() {
     try {
         const dice = document.querySelector('.dice');
         dice.addEventListener('click', async function(e) {
